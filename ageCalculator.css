@@ -1,0 +1,42 @@
+body {
+    background-image: url('ageCalculator.jpg');
+    background-size: cover;
+    display: flex; /* Ajouté pour activer Flexbox */
+    justify-content: center; /* Centre horizontalement */
+    align-items: center; /* Centre verticalement */
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+div {
+    border: 2px solid rgb(52, 166, 195);
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+input[type="date"],
+input[type="button"] {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+}
+
+table {
+    margin: 20px auto;
+}
+
+td {
+    padding: 10px 20px;
+    font-size: 18px;
+}
